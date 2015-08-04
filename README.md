@@ -10,9 +10,10 @@ easy_install-2.7 beautifulsoup4
 ```
 python simple-proxy.py
 ```
-4. Open http://localhost:1234/ in your favorite browser.
+4. Open [localhost:1234](http://localhost:1234/) in your favorite browser.
 
-Proxy optional arguments:
+## Proxy optional arguments:
+```
   -h, --help            show this help message and exit
   -p PORT, --port PORT  Proxy port
   --host HOST           Proxy host
@@ -22,3 +23,4 @@ Proxy optional arguments:
                         Add chars to words with specified length
   -c CHARS, --chars CHARS
                         Chars to add after words with specified length
+```
