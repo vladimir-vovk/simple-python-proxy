@@ -126,8 +126,8 @@ def sigint_handler(signal, frame):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='Simple python proxy server'
-        'adds chars to words with specified length.')
+        description='Simple proxy server with python.\n'
+        'Adds characters to words with specified length.')
     parser.add_argument('-p', '--port', type=int, default=1234,
                         help='Proxy port')
     parser.add_argument('--host', type=str, default='localhost',
