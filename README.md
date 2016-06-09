@@ -1,4 +1,4 @@
-Simple proxy server with python adds characters to words with specified length.
+Simple proxy server with python. Adds characters to words with specified length.
 
 # Usage
 1. Install python 2.7
